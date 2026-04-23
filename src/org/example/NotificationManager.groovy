@@ -42,7 +42,7 @@ class NotificationManager implements Serializable {
                 subject     : subject,
                 body        : body,
                 mimeType    : 'text/html',
-                to          : details.recipients ?: 'YOUR_EMAIL@gmail.com',
+                to          : details.recipients ?: 'rkrahulsh001@gmail.com',
                 attachLog   : status == 'FAILURE'   // failure pe log attach karo
             )
 
