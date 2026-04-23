@@ -17,7 +17,7 @@ class NotificationManager implements Serializable {
             String message = buildSlackMessage(status, emoji, details)
 
             script.slackSend(
-                channel    : '#jenkins-notifications',
+                channel    : '#jenkins-notifications-',
                 color      : color,
                 message    : message,
                 tokenCredentialId: 'slack-token'
